@@ -1,6 +1,6 @@
 # chakra-next-template
 
-A minimal template for creating a scalable web app with Chakra UI + Next.js.
+A [minimal template](https://chakra-next-template.vercel.app/) for creating a scalable web app with Chakra UI + Next.js.
 
 <img width="1512" alt="image" src="https://user-images.githubusercontent.com/56516912/164778481-da46b750-accb-4b33-91a7-df51435d74c0.png">
 
