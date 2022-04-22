@@ -4,7 +4,6 @@ import {
   Flex,
   Heading,
   HStack,
-  Icon,
   Stack,
   Text,
   useColorMode,
