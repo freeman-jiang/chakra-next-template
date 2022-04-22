@@ -10,3 +10,5 @@ import { components } from "@/theme/components";
 import { config } from "@/theme/config";
 
 export const theme = extendTheme({ ...foundations, components, config });
+
+// If you don't see types from the custom theme, try restarting the TS server in VSCode.
