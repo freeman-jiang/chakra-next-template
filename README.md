@@ -2,13 +2,15 @@
 
 A minimal template for creating a scalable web app with Chakra UI + Next.js.
 
+<img width="1512" alt="image" src="https://user-images.githubusercontent.com/56516912/164778481-da46b750-accb-4b33-91a7-df51435d74c0.png">
+
 ## Batteries included
 
-- TypeScript, Chakra UI, and Next.js already set up
+- TypeScript, Chakra UI, and Next.js set up
 - Prettier and ESLint configured with TS support
 - Basic utility components integrating Chakra UI and Next.js
-- Custom theme skeleton with examples
-- Auto-generated Chakra UI custom theme typing
+- Custom theme extension skeleton with examples (custom variants, fonts, tokens)
+- Auto-generated Chakra UI theme-aware typing
 - Husky pre-commit hooks
 
 ## Getting started
@@ -22,8 +24,6 @@ npx degit freeman-jiang/chakra-next-template <YOUR_APP_NAME>
 Then, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
