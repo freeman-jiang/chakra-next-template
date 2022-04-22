@@ -4,6 +4,7 @@ import {
   Flex,
   Heading,
   HStack,
+  Icon,
   Stack,
   Text,
   useColorMode,
@@ -26,6 +27,14 @@ const Home: NextPage = () => {
       gap="1.5rem"
       px="2rem"
     >
+      <CNLink
+        href="https://github.com/freeman-jiang/chakra-next-template"
+        target={"_blank"}
+      >
+        <Button pos="fixed" top="1rem" right="1rem" colorScheme={"redwood"}>
+          Use this template
+        </Button>
+      </CNLink>
       <VStack textAlign={"center"}>
         <Heading fontWeight={500} fontSize="2.75rem">
           chakra-next-template
@@ -45,7 +54,7 @@ const Home: NextPage = () => {
           aria-label="Toggle color mode"
           onClick={toggleColorMode}
         >
-          Toggle Color Mode
+          Toggle color mode
         </Button>
         <Button variant={"custom"} shadow={"custom"}>
           {"I'm a custom variant!"}
