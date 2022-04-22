@@ -6,11 +6,12 @@ A [minimal template](https://chakra-next-template.vercel.app/) for creating a sc
 
 ## Batteries included
 
-- TypeScript, Chakra UI, and Next.js set up
+- TypeScript, Chakra UI, and Next.js
 - Prettier and ESLint configured with TS support
 - Basic utility components integrating Chakra UI and Next.js
-- Custom theme extension skeleton with examples (custom variants, fonts, tokens)
+- Theme extension skeleton with custom variants, fonts, and tokens
 - Auto-generated Chakra UI theme-aware typing
+- Environment variable checking
 - Husky pre-commit hooks
 
 ## Getting started
