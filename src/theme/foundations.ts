@@ -18,6 +18,6 @@ export const foundations = {
   },
   fonts: {
     heading: `GeneralSans-Variable, ${base.fonts.heading}`,
-    body: `GeneralSans-Variable, , ${base.fonts.body}`,
+    body: `GeneralSans-Variable, ${base.fonts.body}`,
   },
 };
